@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - My Flask Application</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <script src="/static/scripts/modernizr-2.6.2.js"></script>
+</head>
+
+<body>
+    <div class="nav-container">
+        <img src="static\assets\profile-photo.jpg" alt="profile-photo" />
+    </div>
+    <div class="nav-container">
+        <h1 class="profile-name">Rodrigo Benitez</h1>
+    </div>
+    <div class="nav-container">
+        <ul class="nav nav-pills">
+            <li role="presentation"><a class="nav-link" data-page="home"  href="">Home</a></li>
+            <li role="presentation"><a class="nav-link" data-page="projects" href="">Projects</a></li>
+            <li role="presentation"><a class="nav-link" data-page="education" href="">Education</a></li>
+        </ul>
+    </div>
+
+   
+    
+     {% block content %}{% endblock %}
+    
+
+
+        <script src="/static/scripts/jquery-1.10.2.js"></script>
+        <script src="/static/scripts/bootstrap.js"></script>
+        <script src="/static/scripts/respond.js"></script>
+        <script src="/static/scripts/scripts.js"></script>
+        {% block scripts %}{% endblock %}
+
+</body>
+</html>
