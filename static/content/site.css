@@ -19,7 +19,7 @@ h2 {
     font-weight: bold;
 }
 .page-content {
-    width: 730px;
+    max-width: 730px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 320px;
