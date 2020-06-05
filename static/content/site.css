@@ -23,9 +23,10 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
-.nav-container{
-    display:flex;
+.nav-container {
+    display: flex;
     justify-content: center;
+    vertical-align: top;
 }
 
 .nav-container img {
@@ -44,3 +45,10 @@ li span {
     font-size: 16px;
     line-height: 1.5;
 }
+.fixed-container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50px;
+}
+#content{margin-top: 320px}
