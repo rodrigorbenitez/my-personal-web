@@ -4,6 +4,9 @@ body {
     position: absolute;
     min-width: 100%;
     max-width: 100%;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 .profile-name {
     margin-top: 5px;
@@ -34,11 +37,20 @@ h2 {
     display: flex;
     justify-content: center;
     vertical-align: top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .nav-container img {
     border-radius: 50%;
-    width: 200px;    }
+    width: 200px;
+    height:200px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
 #header-nav {
     display: flex;
     justify-content: center;
@@ -56,5 +68,9 @@ li span {
     position: absolute;
     width: 100%;
 
+
     top: 50px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
