@@ -1,60 +1,79 @@
 body {
-    padding-top: 20px;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    min-width: 100%;
-    max-width: 100%;
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
 }
+
 .profile-name {
-    margin-top: 5px;
-    font-size: 36px;
-    font-family: 'Lato', sans-serif;
+  margin-top: 5px;
+  font-size: 36px;
+  font-family: 'Lato', sans-serif;
 }
+
 .nav-link, ul {
-    font-size: 16px;
+  font-size: 16px;
 }
+
 h1 {
-    font-weight: bold;
-    font-size: 28px;
-    margin: .67em 0;
-    font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  margin: .67em 0;
+  font-family: 'Lato', sans-serif;
 }
+
 h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
+
 .page-content {
-    max-width: 730px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 320px;
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 320px;
 }
+
 .nav-container {
-    display: flex;
-    justify-content: center;
-    vertical-align: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: top;
 }
 
 .nav-container img {
-    border-radius: 50%;
-    width: 200px;    }
-#header-nav {
-    display: flex;
-    justify-content: center;
+  border-radius: 50%;
+  width: 200px;
 }
-p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-li span {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.5;
-}
-.fixed-container {
-    position: absolute;
-    width: 100%;
 
-    top: 50px;
+#header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+li span {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.fixed-container {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+}
+/*# sourceMappingURL=site.css.map */
